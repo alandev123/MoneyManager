@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bc"
+    android:layout_height="match_parent"
+    tools:context="com.example.alandevasia.moneymanager.activityIncome">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:text="Income" />
+
+    <EditText
+        android:id="@+id/addincome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:hint="Income"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/datepick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="date" />
+
+    <EditText
+        android:id="@+id/addsource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Source"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/addinc"
+        android:layout_width="match_parent"
+        android:background="@color/btnclr"
+
+        android:layout_height="wrap_content"
+        android:text="Add" />
+    <Button
+        android:id="@+id/viewinc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/btnclr"
+        android:text="View Income" />
+
+
+</LinearLayout>

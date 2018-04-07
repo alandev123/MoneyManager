@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc"
+
+    tools:context="com.example.alandevasia.moneymanager.activityExpence">
+
+
+    <TextView
+        android:id="@+id/tex3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="Expense" />
+
+    <EditText
+        android:id="@+id/addexpense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:hint="Expense"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/expdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="date" />
+
+    <EditText
+        android:id="@+id/addpurpose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Purpose"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/addexp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btnclr"
+        android:text="Add" />
+    <Button
+        android:id="@+id/viewexp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btnclr"
+        android:text="View Expense" />
+</LinearLayout>
